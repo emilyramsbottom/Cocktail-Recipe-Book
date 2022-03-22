@@ -1,10 +1,40 @@
-.imagery {
-    float:inline-start;
-    max-inline-size: 300px;
-}
-.recipe {
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+body {
+    background-color: #292d31;
+  
+      background-color: #292d31;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 5%;
+      display:contents;  
+      overflow: hidden;
     
-        float: left;
-        padding: 50px 50px 20px 0;
-       }
-       
+
+      h1 {
+        font-size: 50px;
+        color: rgb(196, 250, 250);
+        }
+      
+      h1 {
+        font-size: 50px;
+        color: rgb(196, 250, 250);
+        }
+      
+        h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+        font-weight: 300;
+        text-align:center;
+        color: rgb(196, 250, 250);
+      }
+
+      h3 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+        font-weight: 300;
+        text-align:left;
+        font-size: 30px;
+        color: rgb(196, 250, 250);
+      }
