@@ -8,14 +8,14 @@
     </head>
 
     <body> 
-
+   
   <!--NavBar*** --> 
-    <div class="navbar" ">
-     
-      <a style= "color: rgb(161, 227, 243); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" > Cocktail Recipe Book </a>
+    <div class="navbar" class="responsive">
+    
+      <a style= "color: rgb(253, 255, 255); font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif; font-style: oblique; display: -webkit-box; padding-left: 5px; padding-top: 10px; padding-bottom: 10px;" > Cocktail Recipe Book </a>
 
         <div class="dropdown">
-          <button> <a href="homePage.html" style="text-decoration: none; color: black;"> Home </a> </button>
+          <button> <a href="homePage.html" style="text-decoration: none; color: black; display: center;"> Home </a> </button>
         </div>
 
         <div class="dropdown">
@@ -30,28 +30,59 @@
             <div class="dropdown-content">
             <a href="zombie.html">Zombie</a>
             <a href="mojito.html">Mojito</a>
-            </div>
           </div>
+      
     </div>
       <!--NavBar*** --> 
     
       <div class="homeBody">
-    <h1 style="color: rgb(161, 227, 243); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;""> Welcome to the Cocktail Recipe Book 
+    <h1 style="color: rgb(161, 227, 243); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;"> Welcome to the Cocktail Recipe Book 
      </h1>
       
-     <img src="imageDirectory/cocktail.png" 
-     alt="An image of a Cocktail" width="500" height="300">
+     <img src="imageDirectory/mainpic.jpg" class="responsive"
+     alt="An image of a Cocktail" width="2840" height="1024">
 </div>
 
+<h2>Some of our site favourites are below:</h2>
+    <br>
+
+    <div class="gallery">
+        <a target="_blank" href="https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg">
+          <img src="https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">A long island iced tea you won't forget!</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="passionfruitMartini.html href="passionfruitMartini.html">
+          <img src="imageDirectory/passionfruitMartini.png" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Fancy making your very own martini?</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="https://www.gastronomblog.com/wp-content/uploads/2019/09/Peach-Zombie-a-Tiki-Rum-Cocktail-11.jpg">
+          <img src="https://www.gastronomblog.com/wp-content/uploads/2019/09/Peach-Zombie-a-Tiki-Rum-Cocktail-11.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Don't underestimate the power of a Zombie...</div>
+      </div>
+      
+
+
+
+
 <div class="contactForm"> 
-     <h4 style= "color: rgb(161, 227, 243); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Suggest a recipe here: </h4>
+  <form class="responsive">
+     <h4> Suggest a recipe here:</h4>
       <form action="mailto:emily.ramsbottom@hotmail.com" method="post">
-      Cocktail Name:   <input type="text" name="Cocktail Name"  size="54"><br>
-      Cocktail Recipe: <input type="text" name="Recipe" size="53" "><br>
+      <h4>Cocktail Name:   <input type="text" name="Cocktail Name"  size="54"></h4>
+      <h4>Cocktail Recipe: <input type="text" name="Recipe" size="53""></h4><br>
       <input type="submit">
-      </form>
-</div>      
-     
+      <br>
+    </form>
+  </div>      
+  <br>
+  <br>
 
 </body>
 
